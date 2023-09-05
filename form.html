@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Formulario de Registro</title>
+</head>
+<body>
+    <h1>
+        Formulario de Registro
+    </h1>
+    <h2>
+        Ingresa tus Datos en el Siguiente Formulario: 
+    </h2>
+    <form class="container" method="post">
+        <div>
+            <label for="">Nombres:</label><br>
+            <input type="text">
+        </div>
+        <div>
+            <label for="">Apellidos:</label><br>
+            <input type="text">
+        </div>
+        <div>
+            <label for="">Genero:</label>
+            <p>
+                <label for="">Masculino:</label><input type="checkbox" name="masculino" value="masculino">
+                <label for="">Femenino:</label><input type="checkbox" name="femenino" value="femenino">
+                <label for="">Otro:</label><input type="checkbox" name="otro" value="otro">
+            </p>
+        </div>
+        <div>
+            <label for="">Correo Electronico:</label><br>
+            <input type="email">
+        </div>
+        <div class="box-buttons">
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar">
+        </div>
+    </form>
+</body>
+</html>
